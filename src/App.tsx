@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Heart } from 'lucide-react';
+import priImage from './image/pri1.png';
 import loveSong from './song/truebeauty.mp3'; // tu canción
 import priVideo from './video/pri.mp4'; // tu video
 
@@ -88,7 +89,7 @@ Sos el amor de mi vida ♥`;
           {/* Imagen en el medio */}
           <div className="flex justify-center">
             <img 
-              src="/src/image/pri1.png" 
+              src={priImage}
               alt="Mi amor" 
               className="rounded-2xl shadow-lg max-w-[600px] sm:max-w-[800px] h-auto mx-auto"
             />
